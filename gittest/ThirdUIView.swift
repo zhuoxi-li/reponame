@@ -11,14 +11,14 @@ struct ThirdUIView: View {
     var body: some View {
         Image(systemName: "star.fill")
             .imageScale(.large)
-            .foregroundStyle(.red)
-        Text("He was vicious and a killer")
-        Text("though the youth of twenty-four.")
-        Text("And the notches on his pistol")
-        Text("numbered one and nineteen more.")
+            .foregroundStyle(.orange)
+        Text("Texas Red had not cleared leather")
+        Text("when the bullet surely ripped.")
+        Text("And the ranger's aim was deadly")
+        Text("with the big iron on his hip.")
         Image(systemName: "star.fill")
             .imageScale(.large)
-            .foregroundStyle(.red)
+            .foregroundStyle(.orange)
     }
 }
 
