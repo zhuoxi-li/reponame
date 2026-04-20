@@ -9,10 +9,16 @@ import SwiftUI
 
 struct OtherView: View {
     var body: some View {
-        Text("In this town, there lived an outlaw")
-        Text("by the name of Texas Red.")
-        Text("Many men had tried to take him,")
-        Text("And those many men were dead.")
+        Image(systemName: "star.fill")
+            .imageScale(.large)
+            .foregroundStyle(.red)
+        Text("He was vicious and a killer")
+        Text("though the youth of twenty-four.")
+        Text("And the notches on his pistol")
+        Text("numbered one and nineteen more.")
+        Image(systemName: "star.fill")
+            .imageScale(.large)
+            .foregroundStyle(.red)
     }
 }
 
