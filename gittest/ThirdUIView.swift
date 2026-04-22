@@ -13,7 +13,7 @@ struct ThirdUIView: View {
             .imageScale(.large)
             .foregroundStyle(.orange)
         Text("Texas Red had not cleared leather")
-        Text("when the bullet surely ripped.")
+        Text("'fore the bullet fairly ripped.")
         Text("And the ranger's aim was deadly")
         Text("with the big iron on his hip.")
         Image(systemName: "star.fill")
