@@ -10,6 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            Text("Arizona Ranger:")
+                .font(.title)
             Image(systemName: "star.fill")
                 .imageScale(.large)
                 .foregroundStyle(.yellow)
